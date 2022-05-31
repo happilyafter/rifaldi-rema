@@ -236,7 +236,7 @@ section{
 
 @media (min-width: 768px){
   #event{
-    background-image: url(/dist/img/3-1.jpg);
+    background-image: url(/dist/img/3.jpg);
     background-position: center;
     height: 150vh;
   }
@@ -284,6 +284,7 @@ section{
     .gallery .gallery-item .gallery-img {
       position: static;
       left: auto;
+      background-size: auto;
     }
   }
 /* ========== End Gallery ========== */
