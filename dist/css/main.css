@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
 :root{
     --primary-font: 'Oleo Script Swash Caps', cursive;
-    --primary-color:#c28285;
-    --secondary-color:#da9ea1;
+    --primary-color:#E1AD01;
+    --secondary-color:#dfb11c;
 }
 
 
@@ -216,7 +216,7 @@ section{
 /* ========== Event ========== */
 #event{
     position: relative;
-    background-image: url(/dist/img/3.jpg);
+    background-image: url(/dist/img/3.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -238,7 +238,7 @@ section{
 
 @media (min-width: 768px){
   #event{
-    background-image: url(/dist/img/3.jpg);
+    background-image: url(/dist/img/3.png);
     background-position: center;
     height: 150vh;
   }
