@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
 :root{
     --primary-font: 'Oleo Script Swash Caps', cursive;
-    --primary-color:#E1AD01;
-    --secondary-color:#dfb11c;
+    --primary-color:#e1ad01;
+    --secondary-color:#e7c965;
 }
 
 
@@ -55,13 +55,13 @@ section{
 
 /* ========== Modal ========== */
 #myModal .modal-content{
-    background-image: url(/dist/img/1.jpeg);
+    background-image: url(/dist/img/1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
     border-radius: 25px;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     height: 90vh;
   }
   
@@ -79,7 +79,7 @@ section{
   }
 
   #myModal .dear-pt{
-    padding-top: 15px;
+    padding-top: 30px;
     font-size: .8rem;
   }
 
